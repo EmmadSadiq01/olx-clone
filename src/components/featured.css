@@ -1,0 +1,98 @@
+
+.album-box{
+    margin-top: 15px;
+    
+}
+.card {
+    border: none !important;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+}
+.item-box{
+    border: 1px solid #e6e1e1 !important;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px -4px #655d5d;
+}
+.text-box{
+    border-left: 1px solid #ffce32;
+    border-width: 5px;
+    padding: 8px 16px;
+
+}
+.item-box span {
+    position: absolute;
+    right: 20px;
+    z-index: 3;
+}
+.item-box span:hover i{
+    color: red;
+    cursor: pointer;
+}
+.price{
+    direction: ltr;
+    font-weight: 700;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #002f34;
+    font-size: 20px;
+}
+.product-name{
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    color: rgba(0,47,52,.64);
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: none !important;
+}
+.featured{
+    margin: 10px;
+    padding: 10px;
+    background-color: #ebeeef;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title h3{
+    color: #002f34;
+    font-size: 24px;
+    
+}
+
+.title .more {
+    color: rgb(37, 35, 35);
+    font-weight: 700;
+    padding: 3px;
+    text-decoration: underline;
+
+}
+.title .more:hover {
+    color: rgb(37, 35, 35);
+}
+.title:hover{
+    border-bottom: none;
+
+}
+.slick-next:before,.slick-prev:before{
+    color: rgba(0, 0, 0, 0.664);
+}
+.slick-next{
+    right: -10px;
+}
+.slick-prev{
+    left: -10px;
+    z-index: 10;
+}
+
+
+

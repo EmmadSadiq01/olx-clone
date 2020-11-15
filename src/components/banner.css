@@ -1,0 +1,23 @@
+.banner{
+    background-image: url('/images/banner.jpg');
+    height: 252px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    top: 112px;
+    left: 0;
+    right: 0;
+}
+
+/* =======ads============= */
+.vivo_ads{
+    margin: 10px auto;
+    max-width: 970px;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+/* home page slider */
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}

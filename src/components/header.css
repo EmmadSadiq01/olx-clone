@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex !important;
+    justify-content: space-between;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1) !important;
+    background-color: #f9f9f9 !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 101;
+}
+/* ==============logo---------- */
+.logo .nav-link{
+    padding: 0px;
+}
+.logo img {
+    width: 60px;
+}
+
+
+/* ---------------------serch buton------------------ */
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #000000;
+  border-right: none;
+  padding-left: 10px;
+  /* height: 20px; */
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+.search-box {
+    display: flex;
+    flex-grow: 1;
+}
+.wrap {
+    flex-grow: 1;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #000000;
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+/* .wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* ---------------------button------------------- */
+
+.login-button a {
+    color: rgb(37, 35, 35);
+    font-weight: 700;
+    padding: 3px;
+}
+.login-button a:hover {
+    color: rgb(37, 35, 35);
+}
+.login-button{
+    border-bottom: 2px solid rgb(37, 35, 35);
+    
+}
+.login-button:hover{
+    border-bottom: none;
+
+}
+
+/* ===================main-menu=============== */
+.main-menu {
+  top: 55px;
+  z-index: 1;
+  background-color: #ffffff!important;
+}
+.main-menu a{
+  text-transform: capitalize ;
+  font-weight: 400;
+  font-size: 14px;
+  color: #002f34 !important;
+}
+.main-menu a:hover {
+  color: #00a49f !important;
+}

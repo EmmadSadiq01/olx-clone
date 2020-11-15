@@ -1,0 +1,106 @@
+.carousel .slider-wrapper{
+    width: 50% !important;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #000000 !important;
+}
+.carousel .control-next.control-arrow:before{
+
+    border-left: 8px solid #000000 !important;
+}
+.carousel{
+    border: 1px solid rgba(0,47,52,.2) !important;
+}
+.product_detail{
+    padding: 16px;
+    border: 1px solid rgba(0,47,52,.2);
+
+}
+.product_detail h3{
+    font-weight: 700;
+    font-size: 20px;
+    color: #002f34;
+}
+#key{
+    
+    color: rgba(0,47,52,.64);
+    text-transform: capitalize;
+}
+.product_detail td{
+    width: 240px;
+    color: #002f34;
+    text-align: left;
+}
+.product_detail p{
+    word-break: break-word;
+    margin: 0;
+    color: #002f34;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.description .about_product{
+    border: 1px solid rgba(0,47,52,.2);
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0,47,52,.36);
+}
+.description .details h3{
+    margin: 8px 0;
+    font-size: 16px;
+    color: #002f34;
+}
+.description .details h5{
+    font-weight: 400;
+    margin: 0;
+    font-size: 16px;
+    color: rgba(0,47,52,.64);
+    line-height: 24px;
+    word-break: break-word;
+}
+.description .details .town_date{
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    color: rgba(0,47,52,.64);
+}
+.description .about_product #heart {
+    position: absolute;
+    right: 30px;
+    z-index: 3;
+}
+.description .about_product #heart:hover i{
+    color: red;
+    cursor: pointer;
+}
+.description .details .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0 0;
+    height: 16px;
+
+}
+.description .about_product #phone{
+    /* transform: ; */
+    transform: translateY(-8px) rotate(100deg);
+}
+.description .about_product #seller{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #002f34;
+    padding: 0;
+}
+.description .about_product img{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}

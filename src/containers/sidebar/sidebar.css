@@ -1,0 +1,57 @@
+.option {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.option:hover{
+    cursor: pointer;
+}
+.option h3{
+    color: #002f34;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.item small{
+    font-size: 12px;
+    color: rgba(0,47,52,.64);
+    padding: 8px 0 0;
+}
+.item{
+    border-top: 1px solid rgba(0,47,52,.2);
+    padding: 16px;
+}
+.caty{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.item-list{
+    /* display: none; */
+}
+.item-list li{
+    padding-right: 8px;
+    /* position: relative; */
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgba(0,47,52,.64);
+}
+.item-list li:hover{
+    color: rgb(0 47 52 / 91%)
+}
+.sub-cat{
+    /* margin: 0;
+    padding: 0; */
+    list-style: none;
+}
+.caty li p{
+    margin-bottom: 2px !important;
+}
+.fas{
+
+    transition: 0.5s all ease-in-out;
+}
